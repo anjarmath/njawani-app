@@ -21,5 +21,5 @@ window.onscroll = function () {
 
 // unduh
 function unduh () {
-    window.open("/dist/njawani_v0.1(alpha).apk")
+    window.open("/njawani-app/dist/njawani_v0.1(alpha).apk")
 }
