@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" class=" scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="icon" type="image/x-icon" href="/dist/img/logo.png">
+    <title>Njawani-Object Detector</title>
+</head>
+<body>
+    <img src="dist/img/Partikel.png" class=" fixed top-0 right-0 md:w-3/4 -z-50 -translate-y-1/4 translate-x-1/4" alt="">
+    <img src="dist/img/Partikel.png" class=" fixed bottom-0 left-0 md:w-3/4 -z-40 translate-y-1/4 -translate-x-1/4" alt="">
+        
+    <!-- Header Start -->
+    <header class=" bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class=" pl-4">
+                    <a href="#home" class=" py-3 flex items-center">
+                        <img src="dist/img/logo.png" class=" w-[48px]" alt="">
+                        <p class=" text-dark font-bold text-2xl ml-6 hidden md:block">ꦚ꧀ꦗꦮꦤꦶ</p>
+                    </a>
+                </div>
+                <p class=" text-dark font-bold text-2xl md:hidden">ꦚ꧀ꦗꦮꦤꦶ</p>
+                <div class="flex items-center px-4">
+                    <button  id="hamburger" name="hamburger" type="button" class=" block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class=" hidden absolute py-3 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-2 top-full
+                    lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class=" block lg:flex">
+                            <li class="group flex justify-center">
+                                <a href="#home" class=" text-base font-bold text-dark py-2 mx-6 flex">Beranda</a>
+                            </li>
+                            <li class="group flex justify-center">
+                                <a href="#tentang" class=" text-base font-bold text-dark py-2 mx-6 flex">Tentang</a>
+                            </li>
+                            <li class="group flex justify-center">
+                                <a href="#teknologi" class=" text-base font-bold text-dark py-2 mx-6 flex">Teknologi</a>
+                            </li>
+                            <li class="group flex justify-center">
+                                <a href="#kelebihan" class=" text-base font-bold text-dark py-2 mx-6 flex">Kelebihan</a>
+                            </li>
+                            <li class="group flex justify-center">
+                                <a href="#evaluasi" class=" text-base font-bold text-dark py-2 mx-6 flex">Evaluasi</a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- hero start -->
+    <section id="home" class=" pt-32 md:pt-36 overflow-hidden h-full pb-16">
+        <div class="container">
+            <div class="px-4 flex flex-wrap justify-between flex-col-reverse lg:flex-row">
+                <div class=" w-full lg:w-1/2 mt-8 lg:pr-28">
+                    <h1 class=" text-dark text-[28px] text-center md:text-left leading-tight mb-6 md:text-[38px] font-extrabold">
+                        Jadilah Generasi <a class=" text-primary underline">Berbudaya</a> dengan Cara yang Menyenangkan
+                    </h1>
+                    <p class=" font-normal text-lg text-center md:text-left text-gray-700 md:text-xl">
+                        Ketahui Aksara Jawa dari benda di sekitarmu hanya dengan memakai kamera ponsel. 
+                        Belajar Aksara Jawa jadi menyenangkan!
+                    </p>
+                    <div class=" mt-16 flex flex-wrap justify-center md:justify-between items-center md:w-3/4">
+                        <button onclick=" unduh();" class=" rounded-full flex items-center mb-6 md:mb-0 pl-3 pr-9 py-3 bg-gradient-to-tr from-primary to-secondary drop-shadow-mydrop1 hover:bg-gradient-to-bl">
+                             <img src="dist/img/android-flat 1.png" width="50px" alt="">
+                             <div class=" ml-7">
+                                 <p class=" font-bold text-left text-xl text-white">Download</p>
+                                 <p class=" text-left text-white text-sm">v-0.1 (alpha testing)</p>
+                             </div>
+                        </button>
+                        <a href="#teknologi" class=" font-bold text-xl text-primary hover:text-secondary transition duration-300 ease-in-out">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class=" w-full lg:w-1/2 lg:-mt-16 flex justify-center">
+                    <img src="dist/img/hero-hp.png" class=" " alt="">   
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- Tentang start -->
+    <section id="tentang" class=" pr-12 md:pr-20 bg-dark -z-20 relative overflow-hidden">
+        <img src="dist/img/ttg.png" class="absolute -z-10 md:w-1/2 md:bottom-0 opacity-10 md:opacity-100 left-0" alt="">
+        <div class="flex z-10">
+            <div class=" w-1/2 hidden md:block"></div>
+            <div class="container pl-12 md:pl-20 pt-20 pb-16 md:w-1/2">
+                <h1 class="text-primary text-[28px] text-center md:text-left leading-tight mb-6 md:text-[38px] font-extrabold">
+                    Wong Jowo Ojo Nganti Ilang Jawane!
+                </h1>
+                <p class=" font-normal text-lg text-left text-white md:text-xl">
+                    Njawani adalah aplikasi berbasis Android yang dapat menjalankan fungsi
+                    realtime object detection untuk dapat mengetahui benda-benda di sekitar dan
+                    menghasilkan output berupa penulisan aksara jawa dari benda tersebut. Dengan adanya
+                    aplikasi ini diharapkan pengguna yang ingin mempelajari
+                    aksara jawa dapat belajar mengenai aksara jawa dengan menyenangkan. <br><br>
+                    
+                </p>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Tentang end -->
+
+    <!-- Teknologi start -->
+    <section id="teknologi" class=" pt-20 pb-16">
+        <div class="container">
+            <h1 class="text-primary text-[24px] text-center leading-tight mb-6 md:text-[38px] font-extrabold">
+                Teknologi yang Dipakai
+            </h1>
+            <div class="flex flex-wrap justify-evenly">
+                <a href="https://www.tensorflow.org/" target="_blank" class=" m-16  opacity-70 hover:opacity-100 text-base py-6 hover:shadow-lg rounded-2xl shadow-primary p-20 font-bold text-dark flex flex-col items-center transition duration-300 ease-in-out">
+                    <img src="dist/img/tf.png" class="" width="100" alt="">
+                    <p class=" pt-4 text-center">TensorFlow</p>
+                </a>
+                <a href="https://opencv.org/" target="_blank" class=" m-16  opacity-70 hover:opacity-100 text-base hover:shadow-lg rounded-2xl shadow-primary p-20 font-bold text-dark py-2 flex flex-col items-center transition duration-300 ease-in-out">
+                    <img src="dist/img/ocv.png" width="100" alt="">
+                    <p class=" pt-4 text-center">OpenCV</p>
+                </a>
+                <a href="https://developer.android.com/studio" target="_blank" class=" m-16 opacity-70 hover:opacity-100 text-base hover:shadow-lg rounded-2xl shadow-primary p-20 font-bold text-dark py-2 flex flex-col items-center transition duration-300 ease-in-out">
+                    <img src="dist/img/as.png" width="85" alt="">
+                    <p class=" pt-4 text-center">Android Studio</p>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Teknologi end -->
+
+    <!-- Kelebihan start -->
+    <section id="kelebihan" class=" md:mt-48 -z-20 relative">
+        <img src="dist/img/mockup.png" class=" w-1/2 absolute -top-48 hidden md:block" alt="">
+        <div class="bg-dark flex flex-wrap">
+            <div class=" w-1/2 hidden md:block"></div>
+            <div class=" w-full md:w-1/2 pt-16 pb-14 pr-4">
+                <h1 class="text-primary text-[24px] text-center leading-tight mb-20 md:text-[38px] font-extrabold">
+                    Kelebihan
+                </h1>
+                <div class=" mb-12 flex items-center flex-col md:flex-row">
+                    <img src="dist/img/k1.png" style="width: 80px; height: 80px;" alt="">
+                    <div class=" ml-6 text-center md:text-left">
+                        <p class=" font-bold text-xl mt-4 mb-4 text-white">Tampilan Menarik</p>
+                        <p class=" font-normal text-lg text-white md:text-lg">
+                            Nikmati aplikasi dengan tampilan UI yang menarik 
+                        </p>
+                    </div>
+                </div>
+                <div class=" mb-12 flex items-center flex-col md:flex-row">
+                    <img src="dist/img/k2.png" style="width: 80px; height: 80px;" alt="">
+                    <div class=" ml-6 text-center md:text-left">
+                        <p class=" font-bold text-xl mb-4 mt-4 text-white">Mudah digunakan</p>
+                        <p class=" font-normal text-lg text-white md:text-lg">
+                            Semua kalangan akan bisa menggunakan aplikasi ini dengan mudah
+                        </p>
+                    </div>
+                </div>
+                <div class=" mb-12 flex items-center flex-col md:flex-row">
+                    <img src="dist/img/k3.png" style="width: 80px; height: 80px;" alt="">
+                    <div class=" ml-6 text-center md:text-left">
+                        <p class=" font-bold text-xl mb-4 mt-4 text-white">Ringan</p>
+                        <p class=" font-normal text-lg text-white md:text-lg">
+                            Tak perlu smartphone dengan spesifikasi tinggi untuk menjalankan aplikasi ini
+                        </p>
+                    </div>
+                </div>
+                <div class=" mb-12 flex items-center flex-col md:flex-row">
+                    <img src="dist/img/k4.png" style="width: 80px; height: 80px;" alt="">
+                    <div class=" ml-6 text-center md:text-left">
+                        <p class=" font-bold text-xl mb-4 mt-4 text-white">Simpan gambar</p>
+                        <p class=" font-normal text-lg text-white md:text-lg">
+                            Tak hanya mendeteksi! kamu dapat menyimpan momenmu menggunakan Njawani di penyimpanan  
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Kelebihan end -->
+
+    <!-- Sistem start -->
+    <section id="sistem" class=" pt-24 pb-16 flex bg-primarytransparan">
+        <div class="container px-8">
+            <h1 class="text-primary text-[24px] text-center leading-tight mb-6 md:text-[38px] font-extrabold">
+                Bagaimana Aplikasi Ini Bekerja?
+            </h1>
+            <div class="flex flex-wrap justify-between items-center">
+                <div class=" md:w-1/2">
+                    <p class=" text-lg lg:text-2xl text-hitam">
+                        Kamu hanya perlu mengarahkan kamera ke benda yang ada di sekitarmu, 
+                        dan Aplikasi Njawani akan mendeteksi objek apakah itu serta memberimu hasil 
+                        penulisan Aksara Jawa dari benda yang kamu tangkap. Sesimpel itu 😋.
+                    </p>
+                </div>
+                <div class=" w-full md:w-1/3 py-12 flex flex-wrap justify-center">
+                    <button onclick="unduh()" class=" w-full rounded-2xl py-4 px-8 md:py-6 md:px-12 mb-12 bg-primary text-white text-base md:text-xl font-bold drop-shadow-mydrop1 hover:bg-dark hover:drop-shadow-mydrop2 focus:bg-dark transition duration-300 ease-in-out">
+                        <div class=" w-full">Coba sekarang</div>
+                    </button>
+                    <a href="/dist/tutorial_pasang.pdf" target="_blank" class=" text-primary text-lg underline">
+                        Bagaimana cara install?
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sistem end -->
+
+    <!-- Eval start -->
+    <section id="evaluasi" class=" pt-32 pb-16 flex">
+        <div class="container px-8">
+            <h1 class="text-primary text-[24px] text-center leading-tight mb-6 md:text-[38px] font-extrabold">
+                Versi Testing Alpha
+            </h1>
+            <div class="flex flex-wrap flex-col-reverse md:flex-row justify-between items-center">
+                <div class=" md:w-1/2">
+                    <p class=" text-lg lg:text-2xl mb-12 text-hitam">
+                        <a class=" text-primary">Versi saat ini adalah versi pengujian tahap alpha</a>, partisipasimu dalam pengujian
+                        sangat berharga bagi kami untuk menyempurnakan aplikasi ini.
+                    </p>
+                    <a href="https://forms.gle/QvR2jc4ZAcLiiuLz7" target="_blank" class=" rounded-2xl py-4 px-8 bg-primary text-white text-xl font-bold">
+                        Isi Evaluasi Alpha
+                    </a>
+                </div>
+                <div class=" md:w-1/3 p-8 max-w-lg -mt-6 md:-mt-16">
+                    <img src="dist/img/alpha.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Eval end -->
+
+    <!-- Bottom Nav start -->
+    <footer class=" py-6 px-6 flex justify-center bg-dark">
+        <p class=" text-base text-center text-white">Njawani is Fully Developed with <span class=" text-red-600">❤</span>
+            by <a href="https://anjarmath.github.io/" target="_blank" class=" underline text-primary"> Anjar Dwi Hariadi</a></p>
+    </footer>
+    <!-- Bottom Nav End -->
+
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
