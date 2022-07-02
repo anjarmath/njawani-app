@@ -21,5 +21,5 @@ window.onscroll = function () {
 
 // unduh
 function unduh () {
-    window.open("/dist/njawani_v0.1(alpha).apk")
+    window.open("https://drive.google.com/uc?export=download&id=15bkLBaCT9HFhiSkyMtomVeDeusc3eVhP")
 }
